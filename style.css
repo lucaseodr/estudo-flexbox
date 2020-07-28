@@ -1,0 +1,59 @@
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.3em;
+	font-weight: normal;
+}
+
+p{
+    text-align: center;
+    padding: 0 10px;
+    justify-content: center;
+}
+
+.container {
+	max-width: 600px;
+	margin: 10px auto;
+	border: 1px dashed #0a861b;
+}
+
+.box{
+    max-width: 400px;
+	margin: 10px auto;
+	border: 1px solid #ccc;
+}
+
+/* Flex */
+.flex {
+	display: flex;
+}
+
+.flex-wrap {
+	flex-wrap: wrap;
+}
+
+.flex-item-1 {
+	flex: 1;
+}
+
+/* Flex Item */
+.item {
+	margin: 5px;
+	background: #0a861b;
+	text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+

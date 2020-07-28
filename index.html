@@ -10,6 +10,88 @@
 
 <body>
 
+    <section class="container">
+        <h1>Display</h1>
+        <h2>display: flex;</h2>
+        <p>Torna o elemento um flex container automaticamente transformando todos os seus filhos diretos em flex itens
+        </p>
+        <section class="box flex">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+            <div class="item">4</div>
+        </section>
+
+        <h2>display: flex;</h2>
+        <section class="box flex">
+            <div class="item">Teste 1</div>
+            <div class="item">Teste 2</div>
+            <div class="item">Teste 3</div>
+            <div class="item">Teste 4</div>
+            <div class="item">Teste 5</div>
+            <div class="item">Teste 6</div>
+            <div class="item">Teste 7</div>
+        </section>
+
+        <h2>display: flex;</h2>
+        <section class="box flex flex-wrap">
+            <div class="item">Teste 1</div>
+            <div class="item">Teste 2</div>
+            <div class="item">Teste 3</div>
+            <div class="item">Teste 4</div>
+            <div class="item">Teste 5</div>
+            <div class="item">Teste 6</div>
+            <div class="item">Teste 7</div>
+        </section>
+
+        <h2>display: flex; // flex-item-1</h2>
+        <section class="box flex">
+            <div class="item flex-item-1">Teste 1</div>
+            <div class="item flex-item-1">Teste 2</div>
+            <div class="item flex-item-1">Teste 3</div>
+        </section>
+    </section>
+
+    <section class="container">
+        <h1>Flex-Direction</h1>
+        <p>Define a direção dos flex itens. Por padrão ele é row (linha), por isso quando o display: flex; é adicionado,
+            os elementos ficam em linha, um do lado do outro.
+
+            A mudança de row para column geralmente acontece quando estamos definindo os estilos em media queries para o
+            mobile. Assim você garante que o conteúdo seja apresentado em coluna única.</p>
+
+        <h2>flex-direction: row;</h2>
+        <p>Os itens ficam em linha</p>
+        <section class="box row">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </section>
+
+        <h2>flex-direction: row-reverse;</h2>
+        <p>Os itens ficam em linha na ordem reversa, ou seja 3, 2, 1.</p>
+        <section class="box row-reverse">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </section>
+
+        <h2>flex-direction: column;</h2>
+        <p>Os itens ficam em uma única coluna, um embaixo do outro.</p>
+        <section class="box column">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </section>
+
+        <h2>flex-direction: column-reverse;</h2>
+        <p>Os itens ficam em uma única coluna, um embaixo do outro, porém em ordem reversa: 3, 2 e 1.</p>
+        <section class="box column-reverse">
+            <div class="item">1</div>
+            <div class="item">2</div>
+            <div class="item">3</div>
+        </section>
+    </section>
 </body>
 
 </html>
